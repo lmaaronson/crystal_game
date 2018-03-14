@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container">
+   
+   
+    <div class="row">
+        <div class="col-md-6"><div id="target-number"></div></div>
+        <div class="col-md-6"><div id="user-total"></div></div>
+    </div>
+
+    <div class="row">
+            <div class="col-md-6 target-number"><h1>Target Number</h1></div>
+            <div class="col-md-6 user-total"> <h1>Your Total</h1> </div>
+    </div>
+
+    <!-- <div class = "row">  
+        <div class ="col-sm-3"> <div id="load-crystals0"></div> </div>
+        <div class ="col-sm-3"> <div id="load-crystals1"></div> </div>
+        <div class ="col-sm-3"> <div id="load-crystals2"></div> </div>
+        <div class ="col-sm-3"> <div id="load-crystals3"></div> </div>
+    </div> -->
+
+    <div id="load-crystals"></div>
+    
+    <h3>Wins:<span id="wins">0</span></h3>
+    <h3>Losses:<span id="losses">0</span></h3>
+   
+</div>  
+
+
+    <script src="assets/javascript/app.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+<style media="screen">
+    #target-number {
+        background-color: purple;
+        width: 200px;
+        color: #FFF;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        font-size: 40px;
+        float: left;
+    }
+
+    #user-total {
+        background-color: orangered;
+        width: 200px;
+        color: #FFF;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        font-size: 40px;
+        float: left;
+    }
+
+    .crystals {
+        width: 150px;
+    }
+</style>
